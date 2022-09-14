@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
- function useCustomeHooks(url) {
+ function useDataFetch(url) {
 
     const [ data, setdata ] = useState()
 
@@ -14,4 +14,4 @@ import React, { useEffect, useState } from 'react'
   
 }
 
-export default useCustomeHooks
+export default useDataFetch

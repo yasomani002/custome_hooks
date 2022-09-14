@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@mui/styles';
 import { Grid, Typography } from '@mui/material';
-import useCustomeHooks from '../hooks/useCustomeHooks';
+import useDataFetch from '../hooks/useDataFetch';
 
 const useStyles = makeStyles({
   root: {
@@ -14,7 +14,7 @@ const useStyles = makeStyles({
 function Login() {
   const classes = useStyles()
 
-  const { data } = useCustomeHooks('https://api.github.com/users')
+  const { data } = useDataFetch('https://api.github.com/users')
 
   return (
     <>
