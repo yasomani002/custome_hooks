@@ -1,10 +1,12 @@
-import Login from "./pages/LogIn";
+import ApiFetch from "./pages/ApiFetch";
+import FormFetch from "./pages/FormFetch";
 
 
 function App() {
   return (
     <>
-    <Login />
+    {/* <ApiFetch /> */}
+    <FormFetch />
     </>
   );
 }

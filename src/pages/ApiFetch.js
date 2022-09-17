@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   }
 })
 
-function Login() {
+function ApiFetch() {
   const classes = useStyles()
 
   const { data } = useDataFetch('https://api.github.com/users')
@@ -33,4 +33,4 @@ function Login() {
   )
 }
 
-export default Login
+export default ApiFetch
